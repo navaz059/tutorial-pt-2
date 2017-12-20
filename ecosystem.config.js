@@ -7,7 +7,7 @@ module.exports = {
     production: {
       user: 'ubuntu',
       host: 'ec2-54-254-201-249.ap-southeast-1.compute.amazonaws.com',
-      key: '~/.ssh/navaz.pem',
+      key: '~/downloads/navaz.pem',
       ref: 'origin/master',
       repo: 'https://github.com/navaz059/tutorial-pt-2.git',
       path: '/home/ubuntu/tutorial-2',
